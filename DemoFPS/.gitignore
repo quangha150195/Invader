@@ -1,0 +1,41 @@
+# シャープで始めるとコメント行になる
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools*
+/proj.ios-mac
+/proj.ios
+ 
+# 無視するフォルダリスト
+/QCAR/
+obj/
+Heapshots/
+[Tt]emp/
+AssetBundles/
+No-Commit/
+Build/
+
+# 無視するファイルリスト
+*.sln
+*.csproj
+*.unityproj
+*.userprefs
+*.apk
+ 
+# 下階層全てのフォルダ内で ".DS_Store" ファイルを無視したい
+*/.DS_Store
+ 
+# 下階層全てのフォルダ内で拡張子が .psd のファイルを無視したい
+# */*.psd
+ 
+# トップ階層の .exe ファイルのみを無視したい
+# ただしサブフォルダ内の .exe ファイルは無視しない
+# /*.exe
+ 
+# img フォルダをまるごと無視したい
+# だけど .png だけは無視したくない
+# img/*.*
+# !.png
