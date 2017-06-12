@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 7023c8d1f17a24e4fadcc164d327ddab
+timeCreated: 1453118211
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: act_smallUFO
+    100002: //RootNode
+    100004: Bone001
+    100006: Bone002
+    100008: Bone003
+    100010: Bone004
+    100012: Bone005
+    100014: Bone006
+    100016: Bone007
+    100018: Bone008
+    100020: Bone009
+    100022: Bone010
+    100024: Bone011
+    100026: Bone012
+    100028: Bone013
+    100030: Bone014
+    100032: Bone015
+    100034: Bone016
+    100036: Bone017
+    100038: Bone018
+    100040: Bone019
+    100042: Bone020
+    100044: Bone021
+    100046: Bone022
+    100048: Bone023
+    100050: Bone024
+    100052: Dummy001
+    100054: Dummy002
+    100056: IK Chain001
+    100058: IK Chain002
+    100060: IK Chain003
+    100062: IK Chain004
+    100064: Point001
+    100066: Point002
+    100068: Point003
+    100070: Point004
+    100072: Point005
+    100074: Point006
+    100076: Point007
+    100078: Point008
+    100080: Point009
+    100082: Point010
+    100084: Point011
+    100086: Point012
+    100088: Point013
+    100090: Point014
+    100092: SplineIKNode001
+    100094: SplineIKNode002
+    100096: SplineIKNode003
+    100098: SplineIKNode004
+    400000: act_smallUFO
+    400002: //RootNode
+    400004: Bone001
+    400006: Bone002
+    400008: Bone003
+    400010: Bone004
+    400012: Bone005
+    400014: Bone006
+    400016: Bone007
+    400018: Bone008
+    400020: Bone009
+    400022: Bone010
+    400024: Bone011
+    400026: Bone012
+    400028: Bone013
+    400030: Bone014
+    400032: Bone015
+    400034: Bone016
+    400036: Bone017
+    400038: Bone018
+    400040: Bone019
+    400042: Bone020
+    400044: Bone021
+    400046: Bone022
+    400048: Bone023
+    400050: Bone024
+    400052: Dummy001
+    400054: Dummy002
+    400056: IK Chain001
+    400058: IK Chain002
+    400060: IK Chain003
+    400062: IK Chain004
+    400064: Point001
+    400066: Point002
+    400068: Point003
+    400070: Point004
+    400072: Point005
+    400074: Point006
+    400076: Point007
+    400078: Point008
+    400080: Point009
+    400082: Point010
+    400084: Point011
+    400086: Point012
+    400088: Point013
+    400090: Point014
+    400092: SplineIKNode001
+    400094: SplineIKNode002
+    400096: SplineIKNode003
+    400098: SplineIKNode004
+    4300000: act_smallUFO
+    7400000: act_smallUFO_die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: act_smallUFO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: act_smallUFO_die
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: act_smallUFO
+        weight: 1
+      - path: Bone005
+        weight: 1
+      - path: Bone005/Bone006
+        weight: 1
+      - path: Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone011
+        weight: 1
+      - path: Bone011/Bone012
+        weight: 1
+      - path: Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone011/Bone012/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone011/Bone012/Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone017
+        weight: 1
+      - path: Bone017/Bone018
+        weight: 1
+      - path: Bone017/Bone018/Bone019
+        weight: 1
+      - path: Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Bone021
+        weight: 1
+      - path: Bone021/Bone022
+        weight: 1
+      - path: Bone021/Bone022/Bone023
+        weight: 1
+      - path: Bone021/Bone022/Bone023/Bone024
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/Dummy001
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Bone002
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point001
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point001/Point002
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point001/Point003
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point001/Point004
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point005
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point005/Point006
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point005/Point007
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point005/Point008
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point009
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point009/Point010
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point009/Point011
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point012
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point012/Point013
+        weight: 1
+      - path: Dummy002/Dummy001/Bone001/Point012/Point014
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: SplineIKNode001
+        weight: 1
+      - path: SplineIKNode002
+        weight: 1
+      - path: SplineIKNode003
+        weight: 1
+      - path: SplineIKNode004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.9
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
