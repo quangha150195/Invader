@@ -31,6 +31,9 @@ public class MainMenuController : MonoBehaviour {
     [SerializeField]
     private GameObject m_CountGo;
 
+    [SerializeField]
+    private GameObject m_InfoPanel;
+
     private bool checkARMode = true;
 
 
@@ -60,6 +63,8 @@ public class MainMenuController : MonoBehaviour {
 
     public void info()
     {
+        m_InfoPanel.SetActive(true);
+        iTween.ScaleTo(m_InfoPanel, iTween.Hash("x", 1, "y", 1, "time", 0.5, "delay", 0.5));
         OnButtonPress(m_btnInfo);
         AudioManager.playEffect(m_btn);
     }
@@ -76,6 +81,11 @@ public class MainMenuController : MonoBehaviour {
         _gameObject.transform.localScale = new Vector3(1, 1, 1);
         iTween.ScaleTo(_gameObject, iTween.Hash("x",1.3f ,"y",1.3f, "time", 0.3f));
         iTween.ScaleTo(_gameObject, iTween.Hash("x", 1.0f, "y", 1.0f, "time", 0.2f, "delay", 0.2f));
+    }
+
+    public void back()
+    {
+        iTween.ScaleTo(m_InfoPanel, iTween.Hash("x", 0, "y", 0, "time", 0.5f));
     }
 
     IEnumerator loadScene(float _time)
